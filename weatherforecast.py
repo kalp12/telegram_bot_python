@@ -1,6 +1,6 @@
 from pyowm import OWM
 
-owm = OWM('df0ccf7781ad5f06365901994b14bd42')
+owm = OWM('Api key needed')
 
 def get_forecasts(lat, lon):
     observation = owm.three_hours_forecast_at_coords(lat, lon)
