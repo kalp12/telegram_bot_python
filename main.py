@@ -2,7 +2,7 @@ from telegram.ext import Updater,CommandHandler,MessageHandler,Filters,CallbackQ
 from telegram import InlineKeyboardButton,InlineKeyboardMarkup
 from telegram import ReplyKeyboardMarkup,KeyboardButton,ReplyKeyboardRemove
 
-updater = Updater(token="1897980117:AAEKh0fY3GusktuayOkXUHjDcbW25XVHds4")
+updater = Updater(token= Api key needed)
 dispatcher=updater.dispatcher
 
 def start(update,context):
